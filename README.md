@@ -1,3 +1,7 @@
+STATUS
+======
+NOT WORKING! WORKING ON FIX AS SOON AS I GOT SOME SPARE TIME!
+
 xFiSHpy
 =======
 FiSH/Mircryption clone for (He)XChat in 100% Python3

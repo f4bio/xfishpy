@@ -244,11 +244,12 @@ def blowcrypt_unpack(msg, cipher):
         raise MalformedError
     if not raw:
         raise MalformedError
-    try:
-        plain = cipher.decrypt(raw)
+	try:
+		print("raw: "+raw)
+		plain = cipher.decrypt(raw)
     except ValueError:
-        raise MalformedError
-    
+       raise MalformedError
+
     return plain.strip("\x00")
 ##
 ## Mircryption-CBC
