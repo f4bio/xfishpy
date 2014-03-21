@@ -1,6 +1,6 @@
 xFiSHpy
 =======
-FiSH/Mircryption clone for X-Chat in 100% Python3
+FiSH/Mircryption clone for (He)XChat in 100% Python3
 
 Credits
 =======
@@ -13,19 +13,21 @@ Info
 ====
 Requirements:<br />
 - PyCrypto 2.6+
-- Python 3.2+
+- Python 3.3+
 - XChat with Python3 support (e.g.: <a href="http://hexchat.github.io/downloads.html">HexChat 2.9.6</a>)
  
 Install
 =======
-put "xFiSHpy" directory in "\<xchatdir\>/config/addons/"
+linux:<br />
+- put/link "xfish.py" in "\<[he]xchatdir\>/config/addons/"
+- put/link "irccrypt.py" in /usr/lib/python3.3/
 
 Last done
 =========
 - * safety commit
 - pickle tests
 - import path fixed
-- renamed to "xFiSHpy" to avoid same name with original
+- renamed to "xFiSHpy" to avoid same name as original
 - re-version-ed to 1.0py_0.1 see above
 - CBC default
 - typo/grammar fix

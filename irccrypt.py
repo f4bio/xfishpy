@@ -229,7 +229,7 @@ def blowcrypt_b64decode(s):
 	
 def blowcrypt_pack(msg, cipher):
     """."""
-    return "+OK " + str(blowcrypt_b64encode(cipher.encrypt(padto(msg, 8))), "UTF-8")
+    return "+OK " + blowcrypt_b64encode(cipher.encrypt(padto(msg, 8)))
 	
 def blowcrypt_unpack(msg, cipher):
     """."""
